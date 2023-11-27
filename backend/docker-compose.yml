@@ -1,0 +1,16 @@
+version: '3'
+services:
+  db:
+    image: surrealdb/surrealdb:1.0.0
+    env_file:
+      - .env
+    entrypoint:
+      - /surreal
+      - start
+      - --user
+      - $DB_USER # only works when "root" is hard coded instead of ENV
+      - --pass
+      - $DB_PASSWORD
+    ports:
+      - 8000:8000
+
