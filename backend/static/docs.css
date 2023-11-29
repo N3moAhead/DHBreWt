@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  background-color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+.route-block {
+  border: 1px solid #475569;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.route-name {
+  color: #8E05C2;
+}
